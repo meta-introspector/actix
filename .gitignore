@@ -12,3 +12,4 @@ actix/examples/chat/target/
 .idea
 
 /lcov.info
+process-repo.log

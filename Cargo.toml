@@ -1,21 +1,21 @@
-[workspace]
-resolver = "2"
-members = [
-    "actix",
-    "actix-broker",
-    "actix-derive",
-]
+# [workspace]
+# resolver = "2"
+# members = [
+#     "actix",
+#     "actix-broker",
+#     "actix-derive",
+# ]
 
-[workspace.package]
-license = "MIT OR Apache-2.0"
-repository = "https://github.com/actix/actix"
-edition = "2021"
-rust-version = "1.75"
+# [workspace.package]
+# license = "MIT OR Apache-2.0"
+# repository = "https://github.com/actix/actix"
+# edition = "2021"
+# rust-version = "1.75"
 
-[patch.crates-io]
-actix = { path = "actix" }
-actix-broker = { path = "actix-broker" }
-actix_derive = { path = "actix-derive" }
+# [patch.crates-io]
+# actix = { path = "actix" }
+# actix-broker = { path = "actix-broker" }
+# actix_derive = { path = "actix-derive" }
 
 [profile.release]
 lto = true
